@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
                 requestPermissions(arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE), PERMISSIONS_REQUEST_CODE)
             }
 
-        } else { // Android 5系以下の場合*******************************************************
+        } else { // Android 5系以下の場合*******************************************************//todo 後でコピーする
             val resolver = contentResolver
             val cursor = resolver.query(
                     MediaStore.Images.Media.EXTERNAL_CONTENT_URI, // データの種類
