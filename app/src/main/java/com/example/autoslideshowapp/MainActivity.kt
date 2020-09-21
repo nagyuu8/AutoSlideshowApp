@@ -15,6 +15,7 @@ import java.util.*
 import kotlin.concurrent.timer
 
 class MainActivity : AppCompatActivity() {
+    
     private var mTimer: Timer? = null
     private var mHandler = Handler()
     private val PERMISSIONS_REQUEST_CODE = 100
@@ -113,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                                     }
                                 }
 
-                            },0,2000)
+                            },2000,2000)
                         }
 
                         }
@@ -211,7 +212,7 @@ class MainActivity : AppCompatActivity() {
                                     }
                                 }
 
-                            }, 0, 2000)
+                            }, 2000, 2000)
                         }
 
                     }
